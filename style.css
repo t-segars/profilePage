@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    min-height: 50px;
+}
+
+main {
+    min-height: 500px;
+    background-color: white;
+}
+
+h3 {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+h4 {
+    margin: 10px;
+}
+
+footer{
+    margin: 5px;
+}
+
+.cardheader {
+    background-color: blue;
+    min-height: 50px;
+}
+
+.container {
+    min-height: 50px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.left {
+    flex: 2;
+}
+
+.right {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    border: 3px solid grey;
+}
+
+.user-circle {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 50%;
+    top: 25px;
+    left: 25px;
+}
+
+.profile {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.pin {
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+}
+.information {
+    margin: 10px;
+}
+.gear {
+    width: 16px;
+    height: 16px;
+    margin-top: 20px;
+}
+
+.education {
+    padding: 15px;
+    font-size: x-large;
+}
+
+.connection {
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 10px;
+}
+
+.icon {
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.numberTwo{
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.name{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.smallCircle{
+    height: 20px;
+    width: 20px;
+}
+
+.cardLines{
+    margin: 4px;
+}
+
+.numberFive{
+    width: 50px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+}
