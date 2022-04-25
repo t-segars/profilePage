@@ -143,3 +143,8 @@ footer{
     background-color: gray;
     border-radius: 50%;
 }
+
+.br{
+    border-top: 3px solid grey;
+   padding: 10px;
+}
