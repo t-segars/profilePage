@@ -37,6 +37,7 @@ footer{
     margin: 5px;
 }
 
+
 .cardheader {
     background-color: blue;
     min-height: 50px;
@@ -132,6 +133,8 @@ footer{
 
 .cardLines{
     margin: 4px;
+    display: inline-flex;
+    overflow: hidden;
 }
 
 .numberFive{
